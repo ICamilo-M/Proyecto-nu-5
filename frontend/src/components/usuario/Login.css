@@ -1,0 +1,32 @@
+
+.principall{
+
+    background-image: url("../../Img/fondoDEusuario.png");
+  
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: rgb(208, 255, 0);
+    font-family: Helvetica, Arial, sans-serif
+    
+
+}
+
+.sequndaryy{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 15%;
+}
+
+.Button {
+
+    background-color:rgb(252, 248, 1) ;
+    color: black;
+
+
+}
