@@ -10,7 +10,7 @@ const singUp = async (req, res) => {
         const userSaved = await user.save()
         return res.json({
             success: true,
-            message: 'Usuario registrado exitosamente',
+            message: 'Usuario registrado exitosamentee',
             data: userSaved
         })
     } catch (error) {
