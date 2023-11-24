@@ -47,9 +47,7 @@ useEffect(() => {
           </Link>     
 
     
-    <div className='menu-icon' onClick={hadleClick}>
-    {click ? <Icon.FaTimes/> : <Icon.FaBars/>} 
-    </div>
+  
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item'><Link className='nav-links' to="/"  onClick={closeMobileMenu}>Home</Link></li>
           <li className='nav-item'><Link className='nav-links' to="/Productos"  onClick={closeMobileMenu}>Productos</Link></li>
