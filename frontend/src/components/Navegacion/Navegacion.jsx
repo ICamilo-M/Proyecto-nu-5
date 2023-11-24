@@ -42,7 +42,7 @@ useEffect(() => {
     <nav className='navbar'>
     <div className='navbar-container'>
           <Link onClick={closeMobileMenu} className='navbar-logo'> Comida-online
-          <Icon.FaOldRepublic/>
+         
           {/* <img src={logo} alt="imagen" className='navbar-logo'/> */}
           </Link>     
 
@@ -58,7 +58,7 @@ useEffect(() => {
         </ul>
      </div>
      <div>
-      <Link to='/cart'><Badge><Icon.FaDollyFlatbed/>{cart.total}</Badge></Link>
+      <Link to='/cart'><Badge>{cart.total}</Badge></Link>
      </div>
     </nav>
        
