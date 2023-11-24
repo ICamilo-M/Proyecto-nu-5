@@ -41,7 +41,7 @@ useEffect(() => {
     <>
     <nav className='navbar'>
     <div className='navbar-container'>
-          <Link onClick={closeMobileMenu} className='navbar-logo'> MiTiendita
+          <Link onClick={closeMobileMenu} className='navbar-logo'> Comida-online
           <Icon.FaOldRepublic/>
           {/* <img src={logo} alt="imagen" className='navbar-logo'/> */}
           </Link>     

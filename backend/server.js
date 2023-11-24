@@ -16,7 +16,7 @@ connect();
 
 //endpoint:url a la que se hace referencia
 server.get("/", (request, response) => {
-    response.send("API V1.0")
+    response.send("Backend del proyecto 5 en funcionamiento ")
 })
 
 auth(server)
